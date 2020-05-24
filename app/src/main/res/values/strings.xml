@@ -2,7 +2,12 @@
     <string name="app_name">Ejemplario</string>
 
     Main
-    <string name="btn1"></string>
+    <string name="btn1Main">Componentes basicos</string>
 
-
+    Componentes basicos
+    <string name="btn1Comp">Mandar objeto</string>
+    <string name="et1">String 1</string>
+    <string name="checkb">Verdadero</string>
+    <string name="rb1">Radio button 1</string>
+    <string name="rb2">Radio button 2</string>
 </resources>
