@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bd_sqlite">
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:hint="@string/tb_nomrbe"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/tb_apellido"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_nombre"
+        app:layout_constraintStart_toStartOf="@+id/et_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre" />
+
+    <EditText
+        android:id="@+id/et_edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/tb_edad"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/et_apellido"
+        app:layout_constraintStart_toStartOf="@+id/et_apellido"
+        app:layout_constraintTop_toBottomOf="@+id/et_apellido" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_mostrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_mostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/btn_mostrar"
+        app:layout_constraintEnd_toEndOf="@+id/et_edad"
+        app:layout_constraintTop_toBottomOf="@+id/et_edad" />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:onClick="enviar"
+        android:text="@string/btn_mandar"
+        app:layout_constraintStart_toStartOf="@+id/et_edad"
+        app:layout_constraintTop_toBottomOf="@+id/et_edad" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

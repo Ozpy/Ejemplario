@@ -1,14 +1,14 @@
-package com.example.ejemplario;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.ejemplario.ComponentesBasicos;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.ejemplario.R;
 
 public class ActivityComponentesBasicos extends AppCompatActivity {
 

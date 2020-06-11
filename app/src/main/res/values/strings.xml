@@ -17,6 +17,14 @@
     <string name="tab2">Contenido</string>
     <string name="tab3">Informacion</string>
 
+    BaseDeDatos
+    <string name="tb_nomrbe">Nombre</string>
+    <string name="tb_apellido">Apellido</string>
+    <string name="tb_edad">Edad</string>
+    <string name="btn_mostrar">Mostrar</string>
+    <string name="btn_mandar">Enviar</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

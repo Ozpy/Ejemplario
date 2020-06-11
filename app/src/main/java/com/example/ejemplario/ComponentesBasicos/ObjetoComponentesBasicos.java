@@ -1,4 +1,4 @@
-package com.example.ejemplario;
+package com.example.ejemplario.ComponentesBasicos;
 
 import java.io.Serializable;
 
