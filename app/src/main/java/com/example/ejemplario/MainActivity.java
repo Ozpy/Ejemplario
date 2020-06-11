@@ -1,10 +1,10 @@
 package com.example.ejemplario;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);//Mandar a llamar el activity
                 break;
             case R.id.button2:
+                i = new Intent(this,Fragment.class); //Poner la direccion
+                startActivity(i);//Mandar a llamar el activity
+                break;
+            case R.id.button3:
                 i = new Intent(this,ObjetoComponentesBasicos.class); //Poner la direccion
                 startActivity(i);//Mandar a llamar el activity
                 break;
